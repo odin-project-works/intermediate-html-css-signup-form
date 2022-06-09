@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+</head>
+<body>
+    <div id="hero">
+        <div id="hero-background"></div>
+        <div id="hero-logo"></div>
+        <div id="hero-text">Odin</div>
+    </div>
+    <div id="content">
+        <div id="description">
+            <p>
+                This is not a real online service! You know you need something like this 
+                in your life to help you realise your deepest dream.
+            </p>
+            <p>You <em>know</em> you want to.</p>
+        </div>
+        <form id="signup" action="http://httpbin.org/post" method="post">
+            <p id="signup-header">Let's do this!</p>
+
+            <div id="signup-form-fields">
+                <label for="firstname">First Name</label>
+                <input type="text" name="firstname" id="firstname" minlength="2" required>
+                <label for="lastname">last Name</label>
+                <input type="text" name="lastname" id="lastname" minlength="2" required>
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" required>
+                <label for="phone_number">Phone Number</label>
+                <input type="number" name="phone_number" id="phone_number">
+                <label for="password">Password</label>
+                <input type="password" name="password" id="password">
+                <label for="confirm_password">Confirm Password</label>
+                <input type="password" name="confirm_password" id="confirm_password">
+            </div>
+
+            <div id="signup-button">
+                <button type="submit">Create Account</button>
+            </div>
+        </form>
+        <footer>
+            Already have an account? <a href="#">Log in</a>
+        </footer>
+    </div>
+</body>
+</html>
