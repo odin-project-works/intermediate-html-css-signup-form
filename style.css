@@ -64,6 +64,10 @@ body {
     opacity: 0.7;
 }
 
+#hero-credit a {
+    color: inherit;
+}
+
 #content {
     flex: 1;
     display: flex;
