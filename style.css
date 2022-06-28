@@ -145,6 +145,10 @@ body {
     box-shadow: 4px 4px 3px #E5E7EB;
 }
 
+#signup-submit button:hover {
+    background-color: #2b442c;
+}
+
 #signup-submit > p > a {
     text-decoration: none;
     color: #596D48;
