@@ -77,19 +77,20 @@ body {
     font-weight: 500;
 }
 
-#signup {
-    padding: 1rem 0 1rem var(--main-content-padding-left);
-    box-shadow: 0 10px 5px #E5E7EB;
-}
-
 #signup-header {
     font-size: 1.4rem;
+    padding: 1rem 0 1rem var(--main-content-padding-left);
 }
 
 #signup-fields {
     display: flex;
     flex-direction: column;
     gap: 1rem;
+    box-shadow: 0 10px 5px #E5E7EB;
+}
+
+#signup-form > * {
+    padding: 1rem 0 1rem var(--main-content-padding-left);
 }
 
 #signup-fields label {
@@ -113,7 +114,6 @@ body {
     box-shadow: 3px 2px 5px #E5E7EB;
 }
 
-
 .signup-fields-group {
     display: flex;
     gap: 4rem;
@@ -125,7 +125,7 @@ body {
 }
 
 #signup-submit {
-    padding: 2rem 0 1rem var(--main-content-padding-left);
+    margin-top: 2rem;
 }
 
 #signup-submit button {
@@ -136,6 +136,7 @@ body {
     font-size: 1.2rem;
     border-radius: 8px;
     border: none;
+    box-shadow: 4px 4px 3px #E5E7EB;
 }
 
 #signup-submit > p > a {
