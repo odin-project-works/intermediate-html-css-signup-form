@@ -4,7 +4,7 @@
 }
 
 :root {
-    --main-content-padding-left: 2rem;
+    --main-content-padding-left: 3rem;
     box-sizing: border-box;
     
 }
@@ -72,14 +72,14 @@ body {
 
 #description {
     background-color: #f9fafb;
-    padding: 8rem 8rem 3rem var(--main-content-padding-left);
+    padding: 6rem 8rem 2rem var(--main-content-padding-left);
     font-size: 1.4rem;
     font-weight: 500;
 }
 
 #signup-header {
     font-size: 1.4rem;
-    padding: 1rem 0 1rem var(--main-content-padding-left);
+    padding-left: var(--main-content-padding-left);
 }
 
 #signup-fields {
@@ -90,7 +90,7 @@ body {
 }
 
 #signup-form > * {
-    padding: 1rem 0 1rem var(--main-content-padding-left);
+    padding: 1rem 0 3rem var(--main-content-padding-left);
 }
 
 #signup-fields label {
